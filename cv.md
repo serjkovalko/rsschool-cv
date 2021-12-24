@@ -20,6 +20,33 @@ Over the course of the year, I am self-education towards the development of site
 * JavaScript basic
 * Git, GitHub
 ***
+### Code example:
+```
+function getAge(i) {
+  if (i > 18) {
+      alert('Welcome to page!');
+    } else {
+      alert('Sorry. You are too young');
+    }
+}
+```
+***
+### Education
+1. Author's course on the creation of sites from Prokopchuk Vadim.
+2. CS50 video.
+3. JS, CSS, HTML, Git video tutorials on YouTube channels.
+4. JavaScript/DOM:
+
+   * https://learn.javascript.ru/ 
+   * https://developer.mozilla.org/ru/docs/Web/JavaScript 
+***
+### Experience
+I have own site portfolio about my a few web projects.This is link [My site portfolio](http://serjsite.pro) .
+***
+### Languages
+* Russian-Native
+* Ukraine-Native
+* English(A1 and learning process ).
 
 
 
