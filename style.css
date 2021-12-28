@@ -52,10 +52,14 @@ body {
    margin: 0 auto;
  }
 
+ .header{
+   background-color: rgb(24, 144, 224);
+ }
  .nav-list {
    display: flex;
    justify-content: flex-end;
    align-items: center;
+   padding-right: 60px;
    list-style: none;
  }
 
@@ -63,17 +67,182 @@ body {
    padding: 0 20px;
    line-height: 50px;
    text-decoration: none;
-   color: grey;
-   font-size: 18px;
+   color: #fff;
+   font-size: 20px;
    transition: .5s;
+   font-weight: 300;
  }
  .nav-link:hover {
-   color: hotpink;
+   color: rgb(83, 83, 98);
  }
 
-
+.section-profile {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+img.profile-photo {
+  border-radius: 50%;
+  }
  
+h1.section-title {
+  text-transform: uppercase;
+  font-size: 32px;
+  letter-spacing: 5px;
+  text-align: center;
+}
 
-h1 {
-  color: #000;
+.section-profile__block-title h2.section-title {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h1, h2, p, span {
+  color: rgb(17, 17, 114);
  }
+h2 {
+  font-size: 24px;
+}
+ .section-contacts {
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+ }
+ .section-contacts__item a:hover {
+   color: rgb(17, 17, 114);
+ }
+
+ .section-contacts__item span, .section-scills__item{
+   font-size: 20px;
+   font-weight: 400;
+   padding: 0 20px 0 0;
+   line-height: 36px;
+ }
+
+  .section-summary {
+  width: 60%;
+  font-size: 18px;
+  line-height: 26px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 20px;
+ }
+ 
+ .block-one, .block-two, .block-three {
+   display: flex;
+   margin-bottom: 20px;
+ }
+
+ .section-code_space {
+   background-color: rgb(240, 231, 231);
+   padding: 10px;
+ }
+
+.section-skills {
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.section-code {
+  width: 60%;
+  font-size: 18px;
+}
+
+.section-scills__item, .section-courses__item, .section-contacts__item, .section-languages__item{
+  color: rgb(17, 17, 114);
+}
+
+
+.section-courses {
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 18px;
+   line-height: 26px;
+}
+.section-projects {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.section-contacts__item a, .section-projects__item a, .section-courses__item a  {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgb(131, 101, 101);
+  transition: .5s;
+}
+.section-projects__item a:hover {
+  color: rgb(17, 17, 114);
+}
+.section-projects__item {
+  color: rgb(131, 101, 101);
+}
+.section-courses {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.section-courses__text {
+  font-size: 18px;
+}
+.section-courses__item span {
+  line-height: 30px;
+}
+
+.section-courses__item a:hover {
+    color: rgb(17, 17, 114);
+}
+.section-languages {
+  padding-bottom: 30px;
+}
+.section-languages__item {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ .footer {
+   background-color: rgb(24, 144, 224);
+ }
+ .container-footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .footer span {
+   color: #fff;
+ }
+ .footer-link__rsschool {
+   padding-bottom: 20px;
+ }
+ .footer-link__github {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+  a.footer-link__github {
+   text-decoration: none;
+   color: #fff;
+ }
+ 
+  .footer-text {
+    padding: 0 10px;
+  }
